@@ -1,0 +1,12 @@
+name: Jaime Fajardo
+# permalink: /:title/
+# baseurl: 
+# baseurl: ""
+permalink: /blog/:title
+
+# seo tag
+plugins:
+  - jekyll-seo-tag
+
+# Google Analytics
+google_analytics: GTM-5FX2Q8X8
