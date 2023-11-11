@@ -4181,10 +4181,17 @@ textarea{
     max-width: 70% !important;
 }
 .resume-photo2{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 250px;
 }
-
+.resume-photo3{
+    height: 200px;
+    width: 250px;
+}
+.resume-photo4{
+    height: 150px;
+    width: 150px;
+}
 .resume-logo {
     display:flex;
     justify-content: center;
