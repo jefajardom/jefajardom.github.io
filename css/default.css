@@ -4180,6 +4180,10 @@ textarea{
     max-height: 100px !important;
     max-width: 70% !important;
 }
+.resume-photo2{
+    height: 100px;
+    width: 100px;
+}
 
 .resume-logo {
     display:flex;
