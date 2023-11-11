@@ -1,6 +1,6 @@
 name: Jaime Fajardo
 # permalink: /:title/
-# baseurl: 
+# baseurl: https://jefajardom.github.io
 # baseurl: ""
 permalink: /blog/:title
 
