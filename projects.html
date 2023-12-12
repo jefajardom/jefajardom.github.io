@@ -34,19 +34,25 @@ title: Projects
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container posts">
-        <!-- {% for post in site.posts %}
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="template-example">
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+        <div class="row resume-row">
+            <div class="col-xs-12 col-md-5">
+                <div class="resume-logo">
+                    <img src="/img/projects/mot.gif" alt="mot gif" class="resume-photo2">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <div class="template-example resume-item">
+                    <h3>Multi Object Tracking with Bipartite Graph</h3>
+                    <p>A robust tracking system using a Graph Neural Network created from scratch and a Fater R-CNN as the detector</p>
+                    <p><a href="" class="btn btn-default">PDF</a> 
+                       <a href="" class="btn btn-default">Code</a> 
+                       <a href="" class="btn btn-default">Video</a>  </p>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container posts">
 
-        {% endfor %} -->
         <ul>
             {% for post in site.posts %}
             <li>
